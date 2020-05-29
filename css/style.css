@@ -4736,10 +4736,33 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   background: #272727;
 }
 
+.footer_widget .f_logo {
+  margin-bottom: 15px;
+}
+.footer_contact {
+  display:flex;
+  align-items: center;
+}
+
+.footer_contact .footer_contact_container{
+    padding:10px;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    display:inline-block;
+    display: flex;
+}
+
+.footer_icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 /* line 7, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 100px;
-  padding-bottom: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -4766,11 +4789,11 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 21, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   color: #54a1bc;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -4856,7 +4879,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .footer .footer_top .footer_widget ul li {
   color: #878787;
   font-size: 14px;
-  line-height: 42px;
+  line-height: 30px;
 }
 
 /* line 90, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
