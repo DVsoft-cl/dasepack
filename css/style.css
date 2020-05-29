@@ -4736,14 +4736,18 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   background: #272727;
 }
 
-.footer_widget .f_logo {
+/* logo dase pack footer */
+.f_logo {
   margin-bottom: 15px;
+  width: 200px;
+  height: 100px;
 }
 
 /* Lo que encierra todo lo que esta de bajo del logo*/
 .footer_contact {
   display:flex;
   align-items: center;
+  width: 299px;
 }
 
 /* Contacto con imagenes */
@@ -4764,8 +4768,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 7, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 @media (max-width: 767px) {
@@ -4798,6 +4802,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
 
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
@@ -4882,7 +4887,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .footer .footer_top .footer_widget ul li {
   color: #878787;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 /* line 90, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
@@ -4961,7 +4966,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 149, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
 .footer .copy-right_text .footer_border {
-  border-top: 1px solid #E8E8E8;
+  border-top: 1px solid #488ca4;
   padding-bottom: 30px;
 }
 
