@@ -4739,11 +4739,14 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .footer_widget .f_logo {
   margin-bottom: 15px;
 }
+
+/* Lo que encierra todo lo que esta de bajo del logo*/
 .footer_contact {
   display:flex;
   align-items: center;
 }
 
+/* Contacto con imagenes */
 .footer_contact .footer_contact_container{
     padding:10px;
     line-height: inherit;
