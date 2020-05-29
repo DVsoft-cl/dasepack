@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-
+	<link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
@@ -35,85 +35,149 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-
-       <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="img/corporativas/Logo.png" alt="" width="90%" height="90%" />
-                                </a>
-                            </div>
+<div id="square_wrapper">
+    <!-- Header Begins -->
+      <header class="square_header" id="square_header">
+        <div class="square_div square_headInnner inner">
+          <div class="square_div square_hnav">
+			  <a class="square_a square_hnavLang" href="mailto:info@dasepack.com">info@dasepack.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <a class="square_a square_hnavLang" href="tel:+56225440790">+56 (2) 2 544 0790</a>
+		  </div>
+          <p class="square_p square_hlogo"><a class="square_a" href="/eng/"><img class="square_img" src="img/Logo.png" alt="Dase-Pack Packaging Solutions SpA" width="200"/></a></p><span class="square_span" id="square_smtMenuBtn"><i></i><i></i><i></i></span>
+          <nav id="square_nav" class="square_nav">
+            <div class="square_div square_glnavIner"><i class="square_i square_glnavLine" id="square_glnavLine"></i>
+              <ul class="square_ul square_glnav">
+                <li class="square_li square_glnavItem" data-nav="company"><span class="square_span square_glnavLink" data-href="/eng/company/">About Square Enix Group</span>
+                  <div class="square_div square_mmenu">
+                    <div class="square_div square_mmenuInner">
+                      <div class="square_div square_mmenuScroll">
+                        <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/company/">About Square Enix Group</a></p>
+                        <div class="square_div square_mmenuTile">
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/message/index.html">President’s Message</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/philosophy.html">Corporate Philosophy</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/outline.html">Corporate Profile</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/governance.html">Corporate Governance</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/officer.html">Executive Biographies</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/group.html">Group Companies</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/company/history.html">History</a></p>
+                          </div>
                         </div>
-                        <div class="col-xl-8 col-md-8">
-                            <div class="header_right d-flex align-items-center">
-                                <div class="short_contact_list">
-                                    <ul>
-                                        <li><a href="mailto:info@daseseal.com"> <i class="fa fa-envelope"></i> info@daseseal.com</a></li>
-                                        <li><a href="tel:+56225440790"> <i class="fa fa-phone"></i>+56 (2) 2 544 0790</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="book_btn d-none d-lg-block">
-                                    <a class="boxed-btn3-line" href="contact.html">Contáctenos</a>
-                                </div>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-12 d-block d-lg-none">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/corporativas/Logo.png" alt="" width="90%" height="90% /">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-12 col-lg-12" align="center">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a  href="index.html">Inicio</a></li>
-											<li><a href="about.html">Nosotros</a></li>
-											<li><a href="cobots.html">Robots & Cobots</a></li>
-                                            <li><a>Maquinarias <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="service_details.html">Máquinas Etiquetadoras</a></li>
-													<li><a href="service-details1.html">Etiquetas</a></li>
-													<li><a href="service-details2.html">Cap Seals</a></li>
-													<li><a href="service-details3.html">Stand Up Pouches</a></li>
-                                                </ul>
-                                            </li>
-											<li><a href="service4.html">Lineas Completas</a></li>
-											<li><a href="service2.html">Intralogistica</a></li>
-                                            <li><a href="service3.html">Procesos</a></li>
-                                            <li><a href="service5.html">Materiales e Insumos</a></li>
-                                            <li><a href="service6.html">Servicio Tecnico</a></li>
-											<li><a href="blog.html">Blog</a></li>
-                                            <li><a href="contact.html">Contacto</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
+                  </div>
+                </li>
+                <li class="square_li square_glnavItem" data-nav="ir"><span class="square_span square_glnavLink" data-href="/eng/ir/">Investor Relations</span>
+                  <div class="square_div square_mmenu">
+                    <div class="square_div square_mmenuInner">
+                      <div class="square_div square_mmenuScroll">
+                        <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/">Investor Relations</a></p>
+                        <div class="square_div square_mmenuTile">
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><span class="square_span square_js-mmenuBtn" data-href="/eng/ir/policy/">Group Strategy</span></p>
+                            <ul class="square_ul square_mmenuList js-mmenuCont">
+                              <li class="square_li square_pc-hide"><a class="square_a" href="/eng/ir/policy/">Group Strategy</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/policy/message.html">To Our Shareholders</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/policy/devidends.html">Profit Distribution and Dividends</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/policy/risk.html">Risk Factors</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/company/governance.html">Corporate Governance</a></li>
+                            </ul>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><span class="square_span square_js-mmenuBtn" data-href="/eng/ir/library/">IR Library</span></p>
+                            <ul class="square_ul square_mmenuList js-mmenuCont">
+                              <li class="square_li square_pc-hide"><a class="square_a" href="/eng/ir/library/">IR Library</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/library/financial.html">Earnings Releases</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/library/explanatory.html">Presentation Materials</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/library/ar.html">Annual Reports</a></li>
+                            </ul>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><span class="square_span square_js-mmenuBtn" data-href="/eng/ir/finance/">Financial Information</span></p>
+                            <ul class="square_ul square_mmenuList js-mmenuCont">
+                              <li class="square_li square_pc-hide"><a class="square_a" href="/eng/ir/finance/">Financial Information</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/finance/?tab=fh">Financial Highlights</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/finance/?tab=ps">Consolidated Statements of Income</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/finance/?tab=bs">Consolidated Balance Sheets</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/finance/?tab=cf">Consolidated Statements of Cash Flows</a></li>
+                            </ul>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><span class="square_span square_js-mmenuBtn" data-href="/eng/ir/stock/">Stock Information</span></p>
+                            <ul class="square_ul square_mmenuList js-mmenuCont">
+                              <li class="square_li square_pc-hide"><a class="square_a" href="/eng/ir/stock/">Stock Information</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/chart.html">Stock Price</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/stock_information.html">Stock Highlights</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/shareholder.html">Shareholder Information</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/shareholdersmeeting.html">Shareholder's Meetings</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/analysts.html">Analyst Coverage</a></li>
+                              <li class="square_li"><a class="square_a2" href="/eng/ir/stock/bond_information.html">Credit Ratings</a></li>
+                            </ul>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/irnews/">IR News</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/calendar.html">IR Calendar</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/policy.html">IR Policy / Information Disclosure Policy</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/disclaimer.html">Disclaimer</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/ir/faq.html">FAQs (Frequently Asked Questions)</a></p>
+                          </div>
                         </div>
+                      </div>
                     </div>
-
-                </div>
+                  </div>
+                </li>
+                <li class="square_li square_glnavItem" data-nav="group"><span class="square_span square_glnavLink" data-href="/eng/group/">Businesses</span>
+                  <div class="square_div square_mmenu">
+                    <div class="square_div square_mmenuInner">
+                      <div class="square_div square_mmenuScroll">
+                        <p class="square_p square_mmenuTit"><a class="square_a" href="/eng/group/">Businesses</a></p>
+                        <div class="square_div square_mmenuTile">
+                          <div class="square_div square_mmenuTileItem sizeL">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/group/digitalentertainment.html">Digital Entertainment</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/group/amusement.html">Amusement</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem sizeS">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/group/publishing.html">Publication</a></p>
+                          </div>
+                          <div class="square_div square_mmenuTileItem">
+                            <p class="square_p square_mmenuTit"><a class="square_a2" href="/eng/group/other.html">Merchandising</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="/eng/news/">News</a></li>
+              </ul>
             </div>
+          </nav>
         </div>
-    </header>
-    <!-- header-end -->
+      </header>
+<!-- Header End -->
+	</div>
+<!-- wrapper End -->
 	
     <!-- bradcam_area  -->
     <div class="bradcam_area bradcam_bg_5">
@@ -313,6 +377,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
+	<script src="js/lib.js"></script>
+	<script src="js/nav.js"></script>
     <!-- <script src="js/gijgo.min.js"></script> -->
     <script src="js/slick.min.js"></script>
 
