@@ -103,14 +103,14 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #878787;
+  color: white;
   margin-bottom: 13px;
   font-family: "Poppins", sans-serif;
 }
 
 /* line 68, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 label {
-  color: #7e7e7e;
+  color: white;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
@@ -182,7 +182,7 @@ h3 {
 
 /* line 122, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 .white-bg {
-  background: #272727;
+  background: #f7f7f7;
 }
 
 /* line 125, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
