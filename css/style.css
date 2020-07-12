@@ -186,11 +186,7 @@ h3 {
 
 /* line 122, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
 .white-bg {
-<<<<<<< HEAD
-  background: #f7f7f7;
-=======
   background: #000000;
->>>>>>> 13eb06e799b425973bc6382691e9ba4128c636b5
 }
 
 /* line 125, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/theme-default.scss */
@@ -5460,7 +5456,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 1, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_service.scss */
 .service_area {
-  background: #093851;
+  background: white;
   padding: 90px 0 40px 0px;
 }
 
@@ -8909,7 +8905,7 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 .bradcam_bg_3 {
-	background-image: url(../img/banner/info_banner.png);
+	background-image: url(../img/banner/cobots-persona2.jpg);
 }
 
 .service_area-agents {
@@ -9018,7 +9014,7 @@ h6 {
 }
 
 .bradcam_bg_5 {
-	background-image: url(../img/productos/0002.jpg)
+	background-image: url(../img/banner/clientes2.jpg)
 }
 
 .bradcam_bg_6 {

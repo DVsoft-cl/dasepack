@@ -626,6 +626,13 @@ pre code {
     margin-left: auto
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0px;
+}
+
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
