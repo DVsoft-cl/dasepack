@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* .gallery {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: enline-block;
+} */
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 70%;
+    margin: auto;
+    grid-gap: 13px;
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+.images-container img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: 300ms all;
+}
+
+.images-container > a {
+    display: block;
+    position: relative;
+    overflow: hidden;   
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    transition: 450ms transform;
+}
+
+.images-container a:hover image {
+    opacity: 0.5;
+}
+
+.images-container a:hover img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+/* Video */
+
+.video-container{
+    width: 70%;
+}
+
+.video-container img {
+    width: 100%;
+}
+
+
+
+/* Carrusel de imagenes */
+.light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box img {
+    width: 75vw;
+    max-height: 70vh;
+}
+
+.light-box:target {
+    transform: scale(1);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #488ca4;
+    color: black;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.next {
+    display: block;
+    background:#488ca4;
+    color: black;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media screen and (max-width:400px) {
+    .images-container{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .close {
+        top: 20px;
+        right: 20px;
+    }
+}
+
