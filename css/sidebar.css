@@ -19,17 +19,22 @@
   grid-template-columns: 18% 82%;
 }
 
-
-
 /* SIDEBAR */
 .sidebar {
   margin: 0;
   padding: 70px 0;
-  width: 210px;
+  width: 300px;
   background-color: white;
   /*position: fixed;*/
   height: 100%;
   overflow: auto;
+}
+
+.active {
+  width: 250px;
+  color: white;
+  background-color: #488ca4;
+  padding: 16px;
 }
 
 .sidebar a {
@@ -38,21 +43,46 @@
   padding: 16px;
   text-decoration: none;
 }
- 
-.sidebar a.active {
-  background-color: #488ca4;
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #488ca4;
-  color: white;
-}
 
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+}
+
+.sidebar a {
+  width: 210px;
+  background: white;
+  color: black;
+  -webkit-transition: width 1s, background 1s;
+  -moz-transition: width 1s, background 1s;
+  -o-transition: width 1s, background 1s;
+  transition: width 0.4s, background 0.4s;
+}
+
+#div1 {
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+#div2 {
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+#div3 {
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.sidebar a:hover {
+  width: 250px;
+  background: #488ca4;
+  color: white;
 }
 
 @media screen and (max-width: 700px) {
