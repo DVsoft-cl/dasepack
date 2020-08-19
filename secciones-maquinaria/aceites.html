@@ -208,30 +208,46 @@
 <!--SIDEBAR END-->
 
         <div class="images-container"> 
-          <a  href="#image1">
-            <img src="../img/secciones-maquinaria/jugos/jugos1.jpg">
-          </a>
-          <a href="#image2" >
-            <img src="../img/secciones-maquinaria/jugos/jugos2.jpg">
-          </a>
-          <a href="#image3">
-            <img src="../img/secciones-maquinaria/jugos/jugos3.jpg">
-          </a>
-          <a href="#image4">
-            <img src="../img/secciones-maquinaria/jugos/jugos4.jpg">
-          </a>
-          <a href="#image5">
-            <img src="../img/secciones-maquinaria/jugos/jugos5.jpg">
-          </a>
-          <a href="#image6">
-            <img src="../img/secciones-maquinaria/jugos/jugos6.jpg">
-          </a>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos1.jpg" 
+            onclick="openModal(); currentSlide(1)" 
+            style="width:100%" 
+            class="hover-shadow cursor">
+          </div>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos2.jpg"
+             onclick="openModal(); currentSlide(2)"
+             style="width:100%"
+             class="hover-shadow cursor">
+          </div>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos3.jpg"
+             onclick="openModal(); currentSlide(3)"
+             style="width: 100%"
+             class="hover-shadow cursor">
+          </div>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos4.jpg"
+             onclick="openModal(); currentSlide(4)"
+             style="width: 100%"
+             class="hover-shadow cursor">
+          </div>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos5.jpg"
+            onclick="openModal(); currentSlide(5)"
+            style="width: 100%"
+            class="hover-shadow cursor">
+          </div>
+          <div class="photo">
+            <img src="../img/secciones-maquinaria/jugos/jugos6.jpg"
+            onclick="openModal(); currentSlide(6)"
+            style="width: 100%"
+            class="hover-shadow cursor">
+          </div>
         </div>
     </div>
 
-        <div class="line-container">
           <div class="line"></div>
-        </div>
 
         <div class="video-container">
             <iframe 
@@ -243,73 +259,99 @@
             </iframe>
         </div>
 
-        <!-- GALLERY WITH ZOOM -->
+        <!-- LIGHTBOX-->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modalContent">
 
-        <article class="light-box" id="image1">
-          <a href="#image6" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos1.jpg">
-          <a href="#image2" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos1.jpg" style="width: 100%">
+            </div>
 
-        <article class="light-box" id="image2">
-          <a href="#image1" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos2.jpg">
-          <a href="#image3" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos2.jpg" style="width: 100%">
+            </div>
 
-        <article class="light-box" id="image3">
-          <a href="#image2" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos3.jpg">
-          <a href="#image4" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos3.jpg" style="width: 100%">
+            </div>
 
-        <article class="light-box" id="image4">
-          <a href="#image3" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos4.jpg">
-          <a href="#image5" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos4.jpg" style="width: 100%">
+            </div>
 
-        <article class="light-box" id="image5">
-          <a href="#image4" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos5.jpg">
-          <a href="#image6" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos5.jpg" style="width: 100%">
+            </div>
 
-        <article class="light-box" id="image6">
-          <a href="#image5" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos6.jpg">
-          <a href="#image1" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="../img/secciones-maquinaria/jugos/jugos6.jpg" style="width: 100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <div class="photo">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos1.jpg" onclick="currentSlide(1)" alt="DASEPACK">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos2.jpg" onclick="currentSlide(2)" alt="DASEPACK">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos3.jpg" onclick="currentSlide(3)" alt="DASEPACK">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos4.jpg" onclick="currentSlide(4)" alt="DASEPACK">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos5.jpg" onclick="currentSlide(5)" alt="DASEPACK">
+              <img class="demo cursor" src="../img/secciones-maquinaria/jugos/jugos6.jpg" onclick="currentSlide(6)" alt="DASEPACK">
+            </div>
+          </div>
+        </div>
+
+        <script>
+          function openModal() {
+            document.getElementById("myModal").style.display = "block";
+          }
+          
+          function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+          }
+          
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+
+      <!--FINISH LIGHTBOX-->
       
     </seccion>
     <!--/ service_area  -->
