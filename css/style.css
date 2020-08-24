@@ -5052,7 +5052,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .bradcam_area {
   background-size: cover;
   background-position: center center;
-  padding: 150px 0 150px 0;
+  padding: 230px 0 150px 0;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
@@ -5072,7 +5072,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   word-wrap: break-word;
   overflow: hidden;
   font-size: 35px;
-  color: #000000;
+  color:white;
   font-weight: 400;
   margin-bottom: 5px;
   margin-top: 5px;
