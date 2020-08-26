@@ -9,25 +9,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/src/img/Logo.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/themify-icons.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/gijgo.css">
-    <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slick.css">
-    <link rel="stylesheet" href="../css/slicknav.css">
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/src/css/magnific-popup.css">
+    <link rel="stylesheet" href="/src/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/css/themify-icons.css">
+    <link rel="stylesheet" href="/src/css/nice-select.css">
+    <link rel="stylesheet" href="/src/css/flaticon.css">
+    <link rel="stylesheet" href="/src/css/gijgo.css">
+    <link rel="stylesheet" href="/src/css/animate.css">
+    <link rel="stylesheet" href="/src/css/slick.css">
+    <link rel="stylesheet" href="/src/css/slicknav.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/gallery.css">
+	  <link rel="stylesheet" href="/src/css/nav.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/sidebar.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -44,7 +44,7 @@
 			  <a class="square_a square_hnavLang" href="mailto:info@dasepack.com">info@dasepack.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			  <a class="square_a square_hnavLang" href="tel:+56225440790">+56 (2) 2 544 0790</a>
 		  </div>
-          <p class="square_p square_hlogo"><a class="square_a" href="/eng/"><img class="square_img" src="../img/Logo.png" alt="Dase-Pack Packaging Solutions SpA" width="200"/></a></p><span class="square_span" id="square_smtMenuBtn"><i></i><i></i><i></i></span>
+          <p class="square_p square_hlogo"><a class="square_a" href="/eng/"><img class="square_img" src="/src/img/Logo.png" alt="Dase-Pack Packaging Solutions SpA" width="200"/></a></p><span class="square_span" id="square_smtMenuBtn"><i></i><i></i><i></i></span>
           <nav id="square_nav" class="square_nav">
             <div class="square_div square_glnavIner"><i class="square_i square_glnavLine" id="square_glnavLine"></i>
               <ul class="square_ul square_glnav">
@@ -190,41 +190,63 @@
     <div class = blue-area>
         <div class="col-xl-12">
             <div class ="bradcam_text text-center">
-                <h3>JUGOS</h3>
+                <h3>ACEITES</h3>
             </div>
         </div>
     </div>
     <!--/ bradcam_area  -->
 
-    
     <!-- service_area  -->
-    <seccion class="service_area">
-        <div class="images-container"> 
-          <a  href="#image1">
-            <img src="../img/secciones-maquinaria/jugos/jugos1.jpg">
-          </a>
-          <a href="#image2" >
-            <img src="../img/secciones-maquinaria/jugos/jugos2.jpg">
-          </a>
-          <a href="#image3">
-            <img src="../img/secciones-maquinaria/jugos/jugos3.jpg">
-          </a>
-          <a href="#image4">
-            <img src="../img/secciones-maquinaria/jugos/jugos4.jpg">
-          </a>
-          <a href="#image5">
-            <img src="../img/secciones-maquinaria/jugos/jugos5.jpg">
-          </a>
-          <a href="#image6">
-            <img src="../img/secciones-maquinaria/jugos/jugos6.jpg">
-          </a>
+    <seccion class="service_area main">
+  <!--SIDEBAR-->
+    <div class="wrap">
+        <div class="sidebar">
+          <div id="" class="active-sidebar">SUBSECCIONES</div>
+          <a id="div2" href="#about">Aceite Motor</a>
+          <a id="div3" href="#services">Aceite Alimenticio</a>
         </div>
+<!--SIDEBAR END-->
 
-        <div class="line"></div>
+        <div class="images-container"> 
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos1.jpg" 
+            onclick="openModal(); currentSlide(1)" 
+            style="width:100%">
+          </div>
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos2.jpg"
+             onclick="openModal(); currentSlide(2)"
+             style="width:100%">
+          </div>
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos3.jpg"
+             onclick="openModal(); currentSlide(3)"
+             style="width: 100%">
+          </div>
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos4.jpg"
+             onclick="openModal(); currentSlide(4)"
+             style="width: 100%">
+          </div>
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos5.jpg"
+            onclick="openModal(); currentSlide(5)"
+            style="width: 100%">
+          </div>
+          <div class="main-photo">
+            <img src="/src/img/secciones-maquinaria/jugos/jugos6.jpg"
+            onclick="openModal(); currentSlide(6)"
+            style="width: 100%">
+          </div>
+        </div>
+    </div>
+
+          <div class="line"></div>
 
         <div class="video-container">
+          <a href="https://www.youtube.com/" target="_blank">Subscribete a nuestro canal de Youtube</a>
             <iframe 
-            width="900"
+            width="730"
             height="400"
             src="https://www.youtube.com/embed/oWMTEc6ZsqM"
             frameborder="0"
@@ -232,73 +254,112 @@
             </iframe>
         </div>
 
-        <!-- GALLERY WITH ZOOM -->
+        <!-- LIGHTBOX-->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modalContent">
 
-        <article class="light-box" id="image1">
-          <a href="#image6" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos1.jpg">
-          <a href="#image2" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src=/src/img/secciones-maquinaria/jugos/jugos1.jpg" class="lightbox-big-img">
+            </div>
 
-        <article class="light-box" id="image2">
-          <a href="#image1" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos2.jpg">
-          <a href="#image3" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="/src/img/secciones-maquinaria/jugos/jugos2.jpg" class="lightbox-big-img">
+            </div>
 
-        <article class="light-box" id="image3">
-          <a href="#image2" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos3.jpg">
-          <a href="#image4" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="/src/img/secciones-maquinaria/jugos/jugos3.jpg" class="lightbox-big-img">
+            </div>
 
-        <article class="light-box" id="image4">
-          <a href="#image3" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos4.jpg">
-          <a href="#image5" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="/src/img/secciones-maquinaria/jugos/jugos4.jpg" class="lightbox-big-img">
+            </div>
 
-        <article class="light-box" id="image5">
-          <a href="#image4" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos5.jpg">
-          <a href="#image6" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="/src/img/secciones-maquinaria/jugos/jugos5.jpg" class="lightbox-big-img">
+            </div>
 
-        <article class="light-box" id="image6">
-          <a href="#image5" class="next">
-            <i class="fa fa-arrow-left"></i>
-          </a>
-          <img src="../img/secciones-maquinaria/jugos/jugos6.jpg">
-          <a href="#image1" class="next">
-            <i class="fa fa-arrow-right"></i>
-          </a>
-          <a href="#" class="close">X</a>
-        </article>
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="/src/img/secciones-maquinaria/jugos/jugos6.jpg" class="lightbox-big-img">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p class ="caption" id="caption"></p>
+            </div>
+
+          <div class="lightbox-photo-container">
+            <div class="lightbox-photo">
+              <img class="demo cursor" src="/src/img/secciones-maquinaria/jugos/jugos1.jpg" onclick="currentSlide(1)" alt="DASEPACK">
+            </div>
+            <div class="lightbox-photo">
+              <img class="demo cursor" src="/src/img/secciones-maquinaria/jugos/jugos2.jpg" onclick="currentSlide(2)" alt="DASEPACK">
+            </div>
+            <div class="lightbox-photo">
+              <img class="demo cursor" src="/src/img/secciones-maquinaria/jugos/jugos3.jpg" onclick="currentSlide(3)" alt="DASEPACK">
+            </div>
+            <div class="lightbox-photo">
+              <img class="demo cursor" src="/src/img/secciones-maquinaria/jugos/jugos4.jpg" onclick="currentSlide(4)" alt="DASEPACK">
+            </div>
+            <div class="lightbox-photo">
+              <img class="demo cursor" src="/src/img/secciones-maquinaria/jugos/jugos5.jpg" onclick="currentSlide(5)" alt="DASEPACK">
+            </div>
+            <div class="lightbox-photo">
+              <img class="demo cursor ph" src="/src/img/secciones-maquinaria/jugos/jugos6.jpg" onclick="currentSlide(6)" alt="DASEPACK">
+           </div>
+          </div>
+
+          </div>
+        </div>
+
+        <script>
+          function openModal() {
+            document.getElementById("myModal").style.display = "block";
+          }
+          
+          function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+          }
+          
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+
+      <!--FINISH LIGHTBOX-->
       
     </seccion>
     <!--/ service_area  -->
@@ -318,29 +379,29 @@
                     <div class="col-xl-3 col-md-6 col-lg-3 sec">
                         <div class="footer_widget">
                             <div class="text-center">
-                                <img class ="f_logo" src="../img/logos/Dase-Pack-logo.png" alt="" height="" width="80%">
+                                <img class ="f_logo" src="/src/img/logos/Dase-Pack-logo.png" alt="" height="" width="80%">
                                 <br>
                                 <p class ="text-below-logo">
-                                    Dase-Pack con 26 años de experiencia en Chile representa  empresas de primer nivel del packaging mundial.
+                                    26 años de experiencia en Chile
                                 </p>
                             </div>
                             <div class ="footer_contact">
                                 <ul>
                                     <li>
                                         <a class ="footer_contact_container" href="mailto:info@daseseal.com" target ="_blank">
-                                            <img class="footer_icon" src="../img/footer-icon/gmail-icon-blue.png">
+                                            <img class="footer_icon" src="/src/img/footer-icon/gmail-icon-blue.png">
                                             info@daseseal.com
                                         </a>
                                     </li>
                                     <li>
                                         <div class ="footer_contact_container" href="tel:+56949253457" target ="_blank">
-                                            <img class="footer_icon" src="../img/footer-icon/phone-icon-blue.png">
+                                            <img class="footer_icon" src="/src/img/footer-icon/phone-icon-blue.png">
                                             <a href="tel:+56225440790" target ="_blank"> (56 2) 2 544 07 90</a>
                                         </div>
                                     </li>
                                     <li>
                                         <a class ="footer_contact_container" href="https://www.google.com/maps/place/Padre+Orellana+1265,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile/@-33.458842,-70.6342646,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c565de265177:0x266d2360d1143ad7!8m2!3d-33.458842!4d-70.6320759" target ="_blank">
-                                            <img class="footer_icon" src="../img/footer-icon/location-icon-blue.png">
+                                            <img class="footer_icon" src="/src/img/footer-icon/location-icon-blue.png">
                                             Av. Padre Orellana 1265 - Santiago - Chile
                                         </a>
                                     </li>
@@ -398,20 +459,46 @@
         </div>
         <div class="copy-right_text">
             <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-						<p class="copy-right text-center">
-						DASE-PACK Ltda. ©<script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados. | Sitio web desarrollado por <a href="http://www.dvsoft.cl/index.html#clients">DVsoft</a>
-						</p>
-						<br><br>
-                        <p class="copy_right text-center" style="color:#D5D5D5">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
+              <div class="footer_border"></div>
+                      <div class="page-footer">
+                        <div class="container">
+                          <ul class="page-footer-social">
+                            <li>
+                              <a 
+                              href="https://www.linkedin.com"
+                              class="page-footer-social-a"
+                              target="_blank">
+                              <img class="page-footer-social-img" src="/src/img/social-media/linkedin.png">
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                              href="https://www.youtube.com"
+                              class="page-footer-social-a"
+                              target="_blank">
+                              <img class="page-footer-social-img" src="/src/img/social-media/youtube.png">
+                            </a>
+                            </li>
+                            <li>
+                              <a
+                              href="https://www.instagram.com"
+                              class="page-footer-social-a"
+                              target="_blank">
+                              <img class="page-footer-social-img" src="/src/img/social-media/instagram.png">
+                            </a>
+                            </li>
+                          </ul>
+                          <ul class="page-footer-legal">
+                            <li>
+                              <p class="">
+                                DASE-PACK Ltda. ©<script>document.write(new Date().getFullYear());</script>. Todos los derechos reservados. | Sitio web desarrollado por <a href="http://www.dvsoft.cl/index.html#clients">DVsoft</a>
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <p class="no-copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                     </div>
-                </div>
             </div>
         </div>
     </footer>
@@ -429,40 +516,40 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
   </div>
     <!-- JS here -->
-    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/isotope.pkgd.min.js"></script>
-    <script src="../js/ajax-form.js"></script>
-    <script src="../js/waypoints.min.js"></script>
-    <script src="../js/jquery.counterup.min.js"></script>
-    <script src="../js/imagesloaded.pkgd.min.js"></script>
-    <script src="../js/scrollIt.js"></script>
-    <script src="../js/jquery.scrollUp.min.js"></script>
-    <script src="../js/wow.min.js"></script>
-    <script src="../js/nice-select.min.js"></script>
-    <script src="../js/jquery.slicknav.min.js"></script>
-    <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/plugins.js"></script>
-	<script src="../js/nav.js"></script>
-	<script src="../js/lib.js"></script>
+    <script src="/src/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/src/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/src/js/popper.min.js"></script>
+    <script src="/src/js/bootstrap.min.js"></script>
+    <script src="/src/js/owl.carousel.min.js"></script>
+    <script src="/src/js/isotope.pkgd.min.js"></script>
+    <script src="/src/js/ajax-form.js"></script>
+    <script src="/src/js/waypoints.min.js"></script>
+    <script src="/src/js/jquery.counterup.min.js"></script>
+    <script src="/src/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/src/js/scrollIt.js"></script>
+    <script src="/src/js/jquery.scrollUp.min.js"></script>
+    <script src="/src/js/wow.min.js"></script>
+    <script src="/src/js/nice-select.min.js"></script>
+    <script src="/src/js/jquery.slicknav.min.js"></script>
+    <script src="/src/js/jquery.magnific-popup.min.js"></script>
+    <script src="/src/js/plugins.js"></script>
+	<script src="/src/js/nav.js"></script>
+	<script src="/src/js/lib.js"></script>
     <!-- <script src="js/gijgo.min.js"></script> -->
-    <script src="../js/slick.min.js"></script>
+    <script src="/src/js/slick.min.js"></script>
 
     <!-- FONT AWESOME SCRIPT -->
     <script src="https://use.fontawesome.com/71dd0e3f26.js"></script>
 
     <!--contact js-->
-    <script src="../js/contact.js"></script>
-    <script src="../js/jquery.ajaxchimp.min.js"></script>
-    <script src="../js/jquery.form.js"></script>
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/mail-script.js"></script>
+    <script src="/src/js/contact.js"></script>
+    <script src="/src/js/jquery.ajaxchimp.min.js"></script>
+    <script src="/src/js/jquery.form.js"></script>
+    <script src="/src/js/jquery.validate.min.js"></script>
+    <script src="/src/js/mail-script.js"></script>
 
 
-    <script src="../js/main.js"></script>
+    <script src="/src/js/main.js"></script>
 
 
 
