@@ -4982,6 +4982,79 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   font-weight: 500;
 }
 
+.page-footer {
+  padding-top: 37px;
+  padding-bottom: 37px;
+  color: white;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+@media (min-width: 768px) {
+  .page-footer {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 988px){
+  .page-footer-social {
+    float: left;
+    margin-bottom: 0;
+  }
+}
+
+.page-footer-social {
+  list-style-type: none;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer-social li {
+  float:left;
+  margin-right: 5px;
+  padding: 0 4px;
+
+}
+
+.page-footer-social a {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.page-footer-social-img {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+}
+
+.page-footer-legal li {
+  display: inline;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 988px){
+  .page-footer-legal {
+    float: right;
+  }
+}
+
+
+.no-copyright {
+  color: #212529;
+  width: 100%;
+  height: 10px;
+}
+
+.no-copyright a {
+  color: #212529;
+}
+
 @media (max-width: 767px) {
   /* line 153, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_footer.scss */
   .footer .copy-right_text .copy_right {
@@ -5052,7 +5125,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .bradcam_area {
   background-size: cover;
   background-position: center center;
-  padding: 150px 0 150px 0;
+  padding: 230px 0 150px 0;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
@@ -5072,7 +5145,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   word-wrap: break-word;
   overflow: hidden;
   font-size: 35px;
-  color: #000000;
+  color:white;
   font-weight: 400;
   margin-bottom: 5px;
   margin-top: 5px;
