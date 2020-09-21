@@ -4,25 +4,30 @@
   padding:0;
 }
 
+.main {
+  flex-wrap: wrap;
+}
+
 .wrap {
   margin-top: 30px;
   display: grid;
   grid-template-columns: 18% 82%;
+  flex-wrap: wrap;
 }
 
 /* SIDEBAR */
 .sidebar {
   margin: 0;
   padding: 70px 0;
-  width: 300px;
+  max-width: 300px;
   background-color: white;
   /*position: fixed;*/
-  height: 100%;
+  max-height: 100%;
   overflow: auto;
 }
 
 .active-sidebar {
-  width: 230px;
+  max-width: 230px;
   color: white;
   background-color: #488ca4;
   padding: 16px;
@@ -45,7 +50,6 @@
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
   height: 1000px;
 }
 
@@ -82,23 +86,6 @@ div.content {
   width: 230px;
   background: #488ca4;
   color: white;
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
 }
 /* SIDEBAR FINISH */
 
@@ -160,13 +147,14 @@ div.content {
   cursor: pointer;
   margin-bottom: 30px;
 }
+
 /* video finish*/
 
 /*lightbox*/
 
 .lightbox-big-img {
   width: 100%;
-  height: 100%;
+  height: 450px;
 }
 
 .images-container:after {
@@ -180,7 +168,7 @@ div.content {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 7%;
   left: 0;
   top: 0;
   width: 100%;
@@ -322,12 +310,209 @@ img .hover-shadow {
 
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 1024px) {
+    .wrap {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+    div.content {
+    margin: 0 10%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
   .images-container{
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
   }
-  .close {
-      top: 20px;
-      right: 20px;
+
+  .video-yt {
+    width: 550px;
+    height: 370px;
   }
+
+  .video-container > a {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .modal {
+    padding-top: 40%;
+  }
+
+  .modalContent {
+    width: 85%;
+    height: 500px;
+  }
+
+  .numbertext {
+    font-size: 23px;
+  }
+
+  .lightbox-big-img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .lightbox-photo img {
+    height: 75px;
+    
+  }
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+  .wrap {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+    div.content {
+    margin: 0 2%;
+    height: auto;
+    padding: 0;
+  }
+
+  .images-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px;
+  }
+
+  .video-yt {
+    width: 350px;
+    height: 200px;
+  }
+
+  .video-container > a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .modal {
+    padding-top: 40%;
+  }
+
+  .modalContent {
+    width: 100%;
+  }
+
+  .numbertext {
+    font-size: 15px;
+  }
+
+  .lightbox-big-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .lightbox-photo img {
+    height: 75px;
+    
+  }
+
+
+
+
+
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .page-footer-social {
+    margin-bottom: 10px;
+  }
+
+  .page-footer-legal {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .wrap {
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+    div.content {
+    margin: 0 2%;
+    height: auto;
+    padding: 0;
+  }
+
+  .images-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px;
+  }
+
+  .video-yt {
+    width: 350px;
+    height: 200px;
+  }
+
+  .video-container > a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .modal {
+    padding-top: 40%;
+  }
+
+  .modalContent {
+    width: 100%;
+  }
+
+  .numbertext {
+    font-size: 15px;
+  }
+
+  .lightbox-big-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .lightbox-photo img {
+    height: 75px;
+    
+  }
+
+
+
+
+
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .page-footer-social {
+    margin-bottom: 10px;
+  }
+
+  .page-footer-legal {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  
 }

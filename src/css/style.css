@@ -5074,6 +5074,46 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   }
 }
 
+@media screen and (max-width:768px) {
+
+
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .page-footer-social {
+    margin-bottom: 10px;
+  }
+
+  .page-footer-legal {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .page-footer-social {
+    margin-bottom: 10px;
+  }
+
+  .page-footer-legal {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+}
+
 
 .no-copyright {
   color: #212529;
@@ -9140,6 +9180,47 @@ h6 {
 	display: flex;
 	justify-content: flex-end;
 	width: 70%;
+}
+
+.container-empresa {
+  text-align: center;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.container-img {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-img img {
+  width: 600px;
+  height: 300px;
+}
+
+.container-text {
+  width: 100%;
+}
+
+.container-text p {
+  padding: 0;
+  font-size: 22px;
+}
+
+.grid-brand {
+  margin-top: 30px;
+  display: grid;
+  width: 100%;
+  height: 290px;
+  grid-template-rows: 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+
+.grid-brand-foto {
+  width: 100%;
+  height: 100%;
 }
 
 /* ====================
