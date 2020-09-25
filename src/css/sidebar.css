@@ -314,6 +314,26 @@ img .hover-shadow {
     .wrap {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    max-width: 600px;
+    background-color: white;
+    /*position: fixed;*/
+    max-height: 100%;
+    overflow: auto;
+    /*text-align: center;*/
+  }
+
+  .sidebar a {
+    width: 300px;
+  }
+
+  .active-sidebar {
+    max-width: 300px;
   }
 
     div.content {
@@ -361,9 +381,7 @@ img .hover-shadow {
     height: 75px;
     
   }
-
-
-
+}
 
 
 @media screen and (max-width:768px) {
@@ -371,28 +389,40 @@ img .hover-shadow {
   .wrap {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
   }
 
-    div.content {
-    margin: 0 2%;
+  .sidebar {
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    max-width: 300px;
+    background-color: white;
+    /*position: fixed;*/
+    max-height: 100%;
+    overflow: auto;
+    /*text-align: center;*/
+  }
+
+  div.content {
+    margin: 0 10%;
     height: auto;
+    margin-bottom: 30px;
     padding: 0;
   }
 
   .images-container{
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px;
-    grid-gap: 10px;
+    grid-template-rows: 250px 250px 250px;
   }
 
   .video-yt {
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 370px;
   }
 
   .video-container > a {
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
   }
 
@@ -401,26 +431,23 @@ img .hover-shadow {
   }
 
   .modalContent {
-    width: 100%;
+    width: 85%;
+    height: 500px;
   }
 
   .numbertext {
-    font-size: 15px;
+    font-size: 23px;
   }
 
   .lightbox-big-img {
     width: 100%;
-    height: 280px;
+    height: 500px;
   }
 
   .lightbox-photo img {
     height: 75px;
     
   }
-
-
-
-
 
   .page-footer {
     padding-top: 10px;
@@ -444,7 +471,20 @@ img .hover-shadow {
     .wrap {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
   }
+
+  .sidebar {
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    max-width: 300px;
+    background-color: white;
+    /*position: fixed;*/
+    max-height: 100%;
+    overflow: auto;
+    /*text-align: center;*/
+  }
+  
 
     div.content {
     margin: 0 2%;
@@ -491,10 +531,6 @@ img .hover-shadow {
     
   }
 
-
-
-
-
   .page-footer {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -513,6 +549,92 @@ img .hover-shadow {
 }
 
 @media screen and (max-width: 320px) {
+
+  .bradcam_text h3 {
+    font-size: 25px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    max-width: 200px;
+    background-color: white;
+    /*position: fixed;*/
+    max-height: 100%;
+    overflow: auto;
+    /*text-align: center;*/
+  }
+  
+
+    div.content {
+    margin: 0 2%;
+    height: auto;
+    padding: 0;
+  }
+
+  .images-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 130px 130px;
+    grid-gap: 6px;
+  }
+
+  .video-yt {
+    width: 275px;
+    height: 230px;
+  }
+
+  .video-container > a {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .modal {
+    padding-top: 40%;
+  }
+
+  .modalContent {
+    width: 70%;
+  }
+
+  .numbertext {
+    font-size: 15px;
+  }
+
+  .lightbox-big-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .lightbox-photo img {
+    height: 60px;
+    
+  }
+
+  .prev , .next {
+    top: 30%;
+  }
+
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+
+  .page-footer-social {
+    margin-bottom: 10px;
+  }
+
+  .page-footer-legal {
+    padding-top: 20px;
+    text-align: center;
+  }
 
   
 }

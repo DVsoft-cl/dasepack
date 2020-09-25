@@ -9156,6 +9156,10 @@ h6 {
 	
 }
 
+.llenadora-banner {
+  background-image: url(../img/secciones-maquinaria/llenadoras/llenadora-banner.jpeg);
+}
+
 .bradcam_bg_5 {
 	background-image: url(../img/banner/clientes2.jpg)
 }
@@ -9181,6 +9185,8 @@ h6 {
 	justify-content: flex-end;
 	width: 70%;
 }
+
+/* Seccion empresa */
 
 .container-empresa {
   text-align: center;
@@ -9222,6 +9228,134 @@ h6 {
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .container-img img {
+    width: 400px;
+    height:200px;
+  }
+
+  .grid-brand {
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    grid-gap: 4px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  .container-img img {
+    width: 500px;
+    height:250px;
+  }
+
+  .grid-brand {
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .container-img img {
+    width: 300px;
+    height:150px;
+  }
+
+  .grid-brand {
+    grid-template-rows: 90px 90px;
+    grid-template-columns: 1fr 1fr;
+    height: 230px;
+    grid-gap: 5px;
+  }
+
+}
+
+/* Finish EMPRESA */
+
+/* START CLIENT SECTION */
+
+.container-client {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.grid-client {
+  width: 1000px;
+  display: flex;
+  align-self: center;
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(10, 100px);
+}
+
+.grid-client-photo {
+  width:100px;
+  height:100px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .grid-client {
+    width: 1000px;
+    display: flex;
+    align-self: center;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(10, 100px);
+  }
+  
+  .grid-client-photo {
+    width:100px;
+    height:100px;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+  .grid-client {
+    width: 480px;
+    display: flex;
+    align-self: center;
+    display: grid;
+    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(6, 80px);
+  }
+  
+  .grid-client-photo {
+    width:80px;
+    height:80px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .grid-client {
+    width: 320px;
+    display: flex;
+    align-self: center;
+    display: grid;
+    grid-template-rows: repeat(7, 80px);
+    grid-template-columns: repeat(4, 80px);
+  }
+  
+  .grid-client-photo {
+    width:80px;
+    height:80px;
+  }
+
+}
+
 
 /* ====================
  * Mobile & Desktop Block
