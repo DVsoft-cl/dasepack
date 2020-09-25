@@ -45,7 +45,32 @@
     cursor: pointer;
   }
 
+  .pdf-container {
+    width: 100%;
+    height: 1100px;
+    text-align: center;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
   
+  .pdf-text {
+    align-self: center;
+    text-align: center;
+    width: 60%;
+    background-color: #488ca4;
+    color: white;
+  }
+  
+  .pdf {
+    display: flex;
+    align-self: center;
+    width: 60%;
+    height: 100%;
+  }
+
   
   .line-container {
     width: 100%;
@@ -238,7 +263,7 @@
   /*lightbox finish*/
   
   
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .wrap {
       display: flex;
@@ -258,6 +283,38 @@
     width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px 350px;
+  }
+
+  .grid2 {
+    width: 100%;
+    grid-template-columns: 70%;
+    grid-template-rows: 350px 350px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .main-photo > img {
+    object-fit: cover;
+    height: 400px;
+  }
+
+
+  .pdf-container {
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .pdf-text {
+    width: 90%;
+    background-color: #488ca4;
+    color: white;
+  }
+  
+  .pdf {
+    width: 90%;
+    height: 90%;
   }
 
   .video-yt {
@@ -316,6 +373,37 @@
     width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
+  }
+
+  .grid2 {
+    width: 100%;
+    grid-template-columns: 75%;
+    grid-template-rows: 330px 330px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .main-photo > img {
+    object-fit: cover;
+  }
+
+
+  .pdf-container {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .pdf-text {
+    width: 90%;
+    background-color: #488ca4;
+    color: white;
+  }
+  
+  .pdf {
+    width: 90%;
+    height: 90%;
   }
 
   .video-yt {
@@ -385,6 +473,19 @@
     grid-gap: 10px;
   }
 
+  .grid2 {
+    width: 100%;
+    grid-template-columns: 90%;
+    grid-template-rows: 230px 230px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .main-photo > img {
+    object-fit: cover;
+  }
+
+
   div.content {
     margin-left: 5%;
     margin-right: 5%;
@@ -392,6 +493,24 @@
     margin-bottom: 30px;
     height: auto;
     padding: 0;
+  }
+
+  .pdf-container {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .pdf-text {
+    width: 100%;
+    background-color: #488ca4;
+    color: white;
+  }
+  
+  .pdf {
+    width: 80%;
+    height: 90%;
   }
 
   .big-photo-container {
@@ -482,6 +601,37 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 120px 120px 120px;
     grid-gap: 6px;
+  }
+
+  .grid2 {
+    width: 100%;
+    grid-template-columns: 98%;
+    grid-template-rows: 230px 230px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .main-photo > img {
+    object-fit: cover;
+  }
+
+
+  .pdf-container {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .pdf-text {
+    width: 100%;
+    background-color: #488ca4;
+    color: white;
+  }
+  
+  .pdf {
+    width: 85%;
+    height: 90%;
   }
 
   .video-yt {
