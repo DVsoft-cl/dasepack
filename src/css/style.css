@@ -9160,6 +9160,22 @@ h6 {
   background-image: url(../img/secciones-maquinaria/llenadoras/llenadora-banner.jpeg);
 }
 
+.empacadora-banner {
+  background-image: url(../img/secciones-maquinaria/empacadoras/empaca6.jpg);
+}
+
+.estuchadora-banner {
+  background-image: url(../img/secciones-maquinaria/estuchadoras/estuchadora1.jpg);
+}
+
+.sachet-banner {
+  background-image: url(../img/secciones-maquinaria/envasadoras/sachet/sachet4.jpg);
+}
+
+.intralogistica-banner {
+  background-image: url(../img/intralogistica/almacenes/almacenes-auto7.jpg);
+}
+
 .bradcam_bg_5 {
 	background-image: url(../img/banner/clientes2.jpg)
 }

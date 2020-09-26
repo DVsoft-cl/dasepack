@@ -50,7 +50,7 @@
 
 div.content {
   margin-left: 200px;
-  height: 1000px;
+  height: 100%;
 }
 
 .sidebar a {
@@ -99,6 +99,16 @@ div.content {
   padding: 70px 0;
   overflow: hidden;
 }
+
+.grid1 {
+  width: 70%;
+  justify-content: center;
+  margin: auto;
+  grid-gap: 16px;
+  padding: 70px 0;
+  overflow: hidden;
+}
+
 
 .main-photo {
   background-repeat: no-repeat !important;
@@ -172,6 +182,20 @@ div.content {
   color: #488ca4;
   cursor: pointer;
   margin-bottom: 30px;
+}
+
+.video-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+}
+
+.video-grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  column-gap: 10px;
 }
 
 /* video finish*/
@@ -382,9 +406,23 @@ img .hover-shadow {
     justify-content: center;
   }
 
+  .grid4 {
+    width: 60%;
+    grid-template-columns: 100%;
+    grid-template-rows: 350px 350px 350px 350px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+  .grid10 {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+  }
+
   .main-photo > img {
     object-fit: cover;
-    height: 400px;
+    height: 100%;
   }
 
 
@@ -416,6 +454,25 @@ img .hover-shadow {
     text-align: center;
   }
 
+  .video-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    column-gap: 10px;
+  }
+
+  .video-grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 40px;
+  }
+
+  .video-grid2 > iframe {
+    width: 400px;
+    height: 200px;
+  }
+
   .modal {
     padding-top: 40%;
   }
@@ -439,7 +496,6 @@ img .hover-shadow {
     
   }
 }
-
 
 @media screen and (max-width:768px) {
 
@@ -481,8 +537,23 @@ img .hover-shadow {
     justify-content: center;
   }
 
+  .grid4 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 350px 350px 350px 350px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .grid10 {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+  }
+
   .main-photo > img {
     object-fit: cover;
+    height: 100%;
   }
 
 
@@ -512,6 +583,20 @@ img .hover-shadow {
   .video-container > a {
     font-size: 35px;
     text-align: center;
+  }
+
+  .video-grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    row-gap: 10px;
+  }
+
+  .video-grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 40px;
   }
 
   .modal {
@@ -595,8 +680,24 @@ img .hover-shadow {
     justify-content: center;
   }
 
+  .grid4 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 230px 230px 230px 230px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .grid10 {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-gap: 10px;
+  }
+
   .main-photo > img {
     object-fit: cover;
+    height: 100%;
   }
 
 
@@ -626,6 +727,20 @@ img .hover-shadow {
   .video-container > a {
     font-size: 20px;
     text-align: center;
+  }
+
+  .video-grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    row-gap: 10px;
+  }
+
+  .video-grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 30px;
   }
 
   .modal {
@@ -712,8 +827,24 @@ img .hover-shadow {
     justify-content: center;
   }
 
+  .grid4 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 230px 230px 230px 230px;
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .grid10 {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 130px 130px 130px 130px;
+    grid-gap: 6px;
+  }
+
   .main-photo > img {
     object-fit: cover;
+    height: 100%;
   }
 
 
@@ -743,6 +874,20 @@ img .hover-shadow {
   .video-container > a {
     font-size: 16px;
     text-align: center;
+  }
+
+  .video-grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    row-gap: 10px;
+  }
+
+  .video-grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    row-gap: 40px;
   }
 
   .modal {
