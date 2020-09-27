@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="../../src/css/nav.css">
     <link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="../../src/css/sidebar.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -247,7 +248,7 @@
                                 <img class="card-img rounded-0" src="../../img/blog/single_blog_1.png" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>8</h3>
-                                    <p>Oct. 2017</p>
+                                    <p style="color:white">Oct. 2017</p>
                                 </a>
                             </div>
 
@@ -255,9 +256,10 @@
                                 <a class="d-inline-block" href="single-blog.html">
                                     <h2>Especialistas en paletizado cartesiano y robots</h2>
                                 </a>
-                                <p align="left">
-									Insertar pdf…
-								</p>
+                                <div class="pdf-container" style="height: 550px">
+      								<h2 class="pdf-text">PDF</h2>
+      								<embed class="pdf" style="height: 100%;" src="../../src/pdf/blog1.pdf">
+    							</div>
 								
 								<br>
 								<br>
@@ -272,7 +274,7 @@
                                 <img class="card-img rounded-0" src="../../img/blog/single_blog_2.png" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>7</h3>
-                                    <p>May. 2016</p>
+                                    <p style="color:white;">May. 2016</p>
                                 </a>
                             </div>
 
@@ -280,7 +282,10 @@
                                 <a class="d-inline-block" href="single-blog.html">
                                     <h2>Revista Indualimento</h2>
                                 </a>
-                                <p>Insertar pdf</p>
+                                <div class="pdf-container" style="height: 550px">
+      								<h2 class="pdf-text">PDF</h2>
+      								<embed class="pdf" style="height: 100%;" src="../../src/pdf/blog2.pdf">
+    							</div>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Webmaster </a></li>
                                 </ul>
@@ -388,16 +393,15 @@
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Informacion
+                                Robots & Cobots
                             </h3>
                             <ul>
-                                <li><a href="index.html">Inicio</a></li>
-                                <li><a href="cobots.html">Robots & Cobots</a></li>
-                                <li><a href="service4.html">Lineas Completas</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">Contacto</a></li>
-                            </ul>
-
+                              <li><a href="../robots_y_cobots/cobots.html">Cobots</a></li>
+                              <li><a href="../robots_y_cobots/paletizado_robotizado.html">Paletizado Robotizado</a></li>
+                              <li><a href="../robots_y_cobots/qcs_inspector.html">Robo-QCS Inspector</a></li>
+                              <li><a href="../robots_y_cobots/deltarobot.html">Delta Robo CAMA</a></li>
+                              <li><a href="../robots_y_cobots/monoblock.html">Monoblock</a></li>
+                          </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
@@ -406,11 +410,11 @@
                                 Maquinaria
                             </h3>
                             <ul>
-                                <li><a href="service_details.html">Máquinas Etiquetadoras</a></li>
-                                <li><a href="service-details1.html">Etiquetas</a></li>
-                                <li><a href="service-details2.html">Cap Seals</a></li>
-                                <li><a href="service-details3.html">Stand-Up Pouches</a></li>
-                                <li><a href="service6.html">Servicio Tecnico</a></li>
+                                <li><a href="../../secciones/procesos/procesos.html">Procesos</a></li>
+                                <li><a href="../../secciones/secciones-maquinaria/llenadoras/llenadoras.html">Llenadoras</a></li>
+                                <li><a href="../../secciones/intralogistica/intralogistica.html">Intralogística</a></li>
+                                <li><a href="../../secciones/secciones-maquinaria/etiquetadoras/etiquedoras.html">Etiquetadoras</a></li>
+                                <li><a href="../../secciones/lineas-completas/lineas_completas.html">Lineas Completas</a></li>
                             </ul>
                         </div>
                     </div>
@@ -420,14 +424,12 @@
                                 Empresa
                             </h3>
                             <ul>
-                                <li><a href="about.html">Nosotros</a></li>
-                                <li><a href="service7.html">Clientes</a></li>
-                                <li><a href="service2.html">Intralogistica</a></li>
-                                <li><a href="service3.html">Procesos</a></li>
-                                <li><a href="service5.html">Materiales e Insumos</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-								<li><a href="contact.html">Contacto</a></li>
-                            </ul>
+                              <li><a href="../../index.html">Inicio</a></li>
+                              <li><a href="../../secciones/empresa/empresa.html">Nosotros</a></li>
+                              <li><a href="../../secciones/empresa/clientes.html">Clientes</a></li>
+                              <li><a href="../../secciones/empresa/contacto.html">Contacto</a></li>
+                              <li><a href="../../secciones/empresa/blog.html">Blog</a></li>
+                          </ul>
                         </div>
                     </div>
                 </div>
