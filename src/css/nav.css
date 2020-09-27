@@ -77,7 +77,7 @@ Reset
 
 .square_html, .square_body, .square_div, .square_span, .square_applet, .square_object, .square_iframe, .square_h1, .square_h2, .square_h3, .square_h4, .square_h5, .square_h6, .square_p, .square_blockquote, .square_pre, .square_a, .square_abbr, .square_acronym, .square_address, .square_big, .square_cite, .square_code, .square_del, .square_dfn, .square_em, .square_img, .square_ins, .square_kbd, .square_q, .square_s, .square_samp, .square_small, .square_strike, .square_strong, .square_sub, .square_sup, .square_tt, .square_var, .square_b, .square_u, .square_i, .square_center, .square_dl, .square_dt, .square_dd, .square_ol, .square_ul, .square_li, .square_fieldset, .square_form, .square_label, .square_legend, .square_table, .square_caption, .square_tbody, .square_tfoot, .square_thead, .square_tr, .square_th, .square_td, .square_article, .square_aside, .square_canvas, .square_details, .square_embed, .square_figure, .square_figcaption, .square_footer, .square_header, .square_hgroup, .square_menu, .square_nav, .square_output, .square_ruby, .square_section, .square_summary, .square_time, .square_mark, .square_audio, .square_video, .square_hr { font-family: 'Noto Sans JP', sans-serif ; color: gainsboro ; margin: 0; padding: 0; border: 0; font-style: normal; font-weight: normal; font-size: 100%; vertical-align: baseline; text-align: left; text-decoration: none; }
 
-.square_a2 { font-family: 'Noto Sans JP', sans-serif; color: gainsboro ; margin: 0; padding: 0; border: 0; font-style: normal; font-weight: lighter; font-size: 100%; vertical-align: baseline; text-align: left; text-decoration: none; }
+.square_a2 { font-family: 'Noto Sans JP', sans-serif; color: gainsboro; margin: 0; padding: 0; border: 0; font-style: normal; font-weight: lighter; font-size: 100%; vertical-align: baseline; text-align: left; text-decoration: none; }
 
 .square_article, .square_aside, .square_details, .square_figcaption, .square_figure, .square_footer, .square_header, .square_hgroup, .square_menu, .square_nav, .square_section, .square_main { display: block; }
 
@@ -128,7 +128,7 @@ wrapper
 @media screen and (min-width: 751px) { #square_wrapper { padding-top: 106px; } }
 
 @media screen and (max-width: 750px) { #square_wrapper { padding-top: 62px; }
-  #square_wrapper.square_navOpen { width: 100%; position: fixed; left: 0; }
+  #square_wrapper.square_navOpen { width: 100%; position: relative; left: 0; }
   #square_wrapper.square_navOpen #square_nav { -webkit-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1); opacity: 1; }
   #square_wrapper.square_navOpen #square_smtMenuBtn .square_i:nth-child(1) { top: 23px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
   #square_wrapper.square_navOpen #square_smtMenuBtn .square_i:nth-child(2) { -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
@@ -186,8 +186,8 @@ header
   #square_header .square_hlogo { left: 15px; }
   #square_header .square_hlogo .square_img { width: 220px; } }
 
-@media screen and (max-width: 750px) { #square_header { width: 100%; padding: 10px 15px; height: 62px; border-bottom: 4px solid #488CA4; }
-  #square_header .square_hlogo { position: absolute; top: 24px; left: 15px; }
+@media screen and (max-width: 750px) { #square_header { width: 100%; height: 62px; border-bottom: 4px solid #488CA4; }
+  #square_header .square_hlogo { position: absolute; }
   #square_header .square_hlogo .square_img { width: 150px; }
   #square_header .square_hnav { position: absolute; right: 57px; top: 22px; z-index: 9; }
   #square_header .square_hnavSearch { -webkit-box-flex: 0; -ms-flex: 0 0 34px; flex: 0 0 34px; width: 34px; height: 18px; margin-left: 10px; } }
@@ -214,7 +214,7 @@ nav
 @media screen and (min-width: 751px) and (max-width: 1000px) { #square_nav { right: 15px; } }
 
 @media screen and (max-width: 750px) { #square_nav { position: fixed; z-index: 100; top: 62px; left: 0; width: 100%; height: calc(100% - 100px); overflow-y: auto; -webkit-overflow-scrolling: touch; overflow-scrolling: touch; -webkit-transform: scaleY(0); -ms-transform: scaleY(0); transform: scaleY(0); -webkit-transform-origin: top; -ms-transform-origin: top; transform-origin: top; opacity: 0; }
-  #square_nav.smt { -webkit-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); -o-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); }
+  #square_nav.square_smt { -webkit-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); -o-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); }
   #square_nav .square_glnavIner { height: 100%; overflow-y: auto; } }
 
 /* :::::::::::::::::::::::::::::::
@@ -238,11 +238,11 @@ glnav
 
 @media screen and (max-width: 750px) { .square_glnav { -webkit-box-shadow: 0 2px 10px #555; box-shadow: 0 2px 10px #555; }
   .square_glnavLine { display: none; }
-  .square_glnavItem { position: relative; }
+  .square_glnavItem { position: relative; color: black; }
   .square_glnavItem:after { content: ''; display: block; line-height: 1; background-color: #cccccc; height: 1px; width: calc( 100% - 30px); position: absolute; top: 0px; left: 15px; }
   .square_glnavItem:first-child:after { content: none; }
-  .square_glnav .square_span.square_glnavLink { position: relative; }
-  .square_glnav .square_span.square_glnavLink:after { content: ''; display: block; width: 12px; height: 12px; background: url(/eng/assets/img/shared/icn_navToggle1.png) no-repeat center center/contain; position: absolute; right: 15px; top: 50%; margin-top: -6px; }
+  .square_glnav .square_span.square_glnavLink { position: relative; color: black; }
+  .square_glnav .square_span.square_glnavLink:after { content: ''; display: block; width: 12px; height: 12px; background: url(../../src/img/navbar/icn_navToggle1.png) no-repeat center center/contain; position: absolute; right: 15px; top: 50%; margin-top: -6px; }
   .square_glnav .square_span.square_glnavLink.square_on:after { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
   .square_glnavLink { display: block; padding: 15px 35px 15px 15px; background-color: #fff; } }
 
@@ -3014,7 +3014,7 @@ tableStyle1
 .square_m-category .square_img-wrap { display: block; position: relative; margin-bottom: 15px; padding-top: 56.25%; }
 
 @media screen and (min-width: 751px) { .square_m-category .square_a.square_img-wrap { -webkit-transition: .2s opacity ease-in; -o-transition: .2s opacity ease-in; transition: .2s opacity ease-in; }
-  .square_m-category .square_a.square_img-wrap:hover { opacity: .6; } }
+  .square_m-category .square_a.square_img-wrap:hover { opacity: 1; } }
 
 .square_m-category .square_name { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; font-size: 16px; font-weight: bold; color: #fff; }
 
@@ -4407,3 +4407,32 @@ newsArt
   .square_col3Box { overflow: hidden; }
   .square_col3BoxItem { float: left; width: 30%; margin-right: 5%; }
   .square_col3BoxItem:nth-child(3n) { margin-right: 0; } }
+
+/* ====================
+ * Mobile & Desktop Block
+ *
+ * ------------------------------------------------------------------- */
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+@media screen and (min-width: 751px) { #square_smtMenuBtn { display: none; } }
+
+@media screen and (max-width: 750px) { #square_smtMenuBtn { display: block; width: 48px; height: 48px; position: absolute; top: 7px; right: 4px; z-index: 10; }
+  #square_smtMenuBtn i { display: block; width: 24px; height: 2px; background-color: #f7f7f7; position: absolute; right: 12px; -webkit-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); -o-transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); transition: 0.3s all cubic-bezier(0.82, 0.01, 0.3, 0.99); }
+  #square_smtMenuBtn i:nth-child(1) { top: 16px; }
+  #square_smtMenuBtn i:nth-child(2) { top: 23px; }
+  #square_smtMenuBtn i:nth-child(3) { top: 30px; } }
+
+
+element.style {
+    top: 0px;
+}
+@media screen and (max-width: 750px) { #square_wrapper.square_navOpen { width: 100%; position: relative; left: 0; } }

@@ -946,7 +946,7 @@ h3 {
 /* line 17, ../../Arafath/CL/Cl November/223. Transportation/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 7px 0;
-  background: #000000;
+  background-color: #000000;
 }
 
 @media (max-width: 767px) {
