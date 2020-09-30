@@ -140,11 +140,11 @@
 }
 
 .stdo-more-link a:hover, a:focus {
-	color:#ce1927;
+	color:#488ca4;
 }
 
 .stdo-more-link a:hover:after {
-	background: #ce1927;
+	background: #488ca4;
 	width: 2em;
 }
 
