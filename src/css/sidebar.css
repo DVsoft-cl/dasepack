@@ -89,6 +89,37 @@ div.content {
 }
 /* SIDEBAR FINISH */
 
+/*LISTA*/
+
+
+.list-container {
+  margin: auto;
+  padding: 70px 70px 0 230px;
+}
+
+.list-container ul {
+  list-style: none;
+}
+
+li > p {
+  display: inline;
+}
+
+.list li::before {
+  content: "\2022";
+  color:#488ca4;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+
+
+
+/*FIN LISTA*/
+
 .images-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -516,8 +547,19 @@ img .hover-shadow {
     /*text-align: center;*/
   }
 
+  .flex-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .list-container {
+    padding: 5% 10%;
+  }
+  
+
   div.content {
-    margin: 0 10%;
+    margin: 0 0;
     height: auto;
     margin-bottom: 30px;
     padding: 0;
@@ -656,6 +698,16 @@ img .hover-shadow {
     max-height: 100%;
     overflow: auto;
     /*text-align: center;*/
+  }
+
+  .flex-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .list-container {
+    padding: 5% 10%;
   }
   
 
