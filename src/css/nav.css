@@ -66,6 +66,24 @@
 
 #square_mf_serp_modal_head .square_span #square_mf_serp_modal_close { display: none; }
 
+.product-header {
+	border-bottom: 1px solid #ddd;
+	padding: 1em 0 0.2em;
+	overflow: hidden;
+	width: 980px;
+	margin: 0 auto;
+	*position: relative;
+	*height: 39px;
+}
+
+.robonavbar {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.robonavbar a:hover {
+	color: #0F5F7B;
+}
 /*竊第､懃ｴ｢邨先棡繝｢繝ｼ繝繝ｫ*/
 /* ===========================================================================
 
