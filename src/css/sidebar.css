@@ -20,7 +20,7 @@
   margin: 0;
   padding: 70px 0;
   max-width: 300px;
-  background-color: white;
+  background-color: white; 
   /*position: fixed;*/
   max-height: 100%;
   overflow: auto;
@@ -429,6 +429,13 @@ img .hover-shadow {
     grid-template-rows: 300px 300px 300px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 70%;
@@ -571,6 +578,13 @@ img .hover-shadow {
     grid-template-rows: 250px 250px 250px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 75%;
@@ -586,6 +600,8 @@ img .hover-shadow {
     grid-gap: 25px;
     justify-content: center;
   }
+
+
 
   .grid10 {
     width: 100%;
@@ -724,10 +740,17 @@ img .hover-shadow {
     grid-gap: 10px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 90%;
-    grid-template-rows: 230px 230px;
+    grid-template-rows: repeat(2, 230px);
     grid-gap: 25px;
     justify-content: center;
   }
@@ -735,10 +758,27 @@ img .hover-shadow {
   .grid4 {
     width: 100%;
     grid-template-columns: 100%;
-    grid-template-rows: 230px 230px 230px 230px;
+    grid-template-rows: repeat(4, 230px);
     grid-gap: 25px;
     justify-content: center;
   }
+
+  .grid6 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 230px);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+  .grid8 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 230px);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
 
   .grid10 {
     width: 100%;
@@ -871,6 +911,13 @@ img .hover-shadow {
     grid-gap: 6px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 98%;
@@ -884,6 +931,23 @@ img .hover-shadow {
     grid-template-columns: 100%;
     grid-template-rows: 230px 230px 230px 230px;
     grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .grid6 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 230px);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+
+  .grid8 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 230px);
+    grid-gap: 20px;
     justify-content: center;
   }
 
