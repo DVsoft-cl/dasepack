@@ -330,6 +330,13 @@
     grid-template-rows: 350px 350px 350px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 70%;
@@ -437,6 +444,13 @@
     width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px 250px;
+  }
+
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
   }
 
   .grid2 {
@@ -552,6 +566,13 @@
     grid-gap: 10px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
     grid-template-columns: 90%;
@@ -560,14 +581,39 @@
     justify-content: center;
   }
 
+  .grid4 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 230px);
+    grid-gap: 25px;
+    justify-content: center;
+  }
+
+  .grid6 {
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+
+  .grid8 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 230px);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
   .main-photo > img {
     object-fit: cover;
+    height: auto;
   }
 
 
   div.content {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     height: auto;
@@ -621,13 +667,6 @@
     row-gap: 10px;
   }
 
-  .grid4 {
-    width: 100%;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 120px 120px;
-    grid-gap: 25px;
-    justify-content: center;
-  }
 
   .modal {
     padding-top: 40%;
@@ -683,7 +722,7 @@
 
   
   div.content {
-    margin: 0 2% 0 2%;
+    margin: auto;
     height: auto;
     padding: 0;
     margin-top: 30px;
@@ -697,9 +736,16 @@
     grid-gap: 6px;
   }
 
+  .grid1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .grid2 {
     width: 100%;
-    grid-template-columns: 98%;
+    grid-template-columns: 100%;
     grid-template-rows: 230px 230px;
     grid-gap: 25px;
     justify-content: center;
@@ -707,14 +753,34 @@
 
   .grid4 {
     width: 100%;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 120px 120px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 230px);
     grid-gap: 25px;
     justify-content: center;
   }
 
+  .grid6 {
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+
+  .grid8 {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, 230px);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+
+
   .main-photo > img {
     object-fit: cover;
+    height: auto;
   }
 
 
