@@ -50,7 +50,7 @@
             <div class="square_div square_glnavIner"><i class="square_i square_glnavLine" id="square_glnavLine"></i>
               <ul class="square_ul square_glnav">
 				<li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="index.html">Inicio</a></li>
-                <li class="square_li square_glnavItem" data-nav="ir"><span class="square_span square_glnavLink">Maquinaria</span>
+                <li class="square_li square_glnavItem" data-nav="news"><a class="square_span square_glnavLink" href="#">Maquinaria</a>
                   <div class="square_div square_mmenu">
                     <div class="square_div square_mmenuInner">
                       <div class="square_div square_mmenuScroll">
@@ -215,12 +215,12 @@
                     </div>
                   </div>
                 </li>
-				 <div id="content-desktop">
-                <li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="secciones/empresa/contacto.html" style="color:gainsboro">Contacto</a></li>
-				 </div>
-				 <div id="content-mobile">
-				  <li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="secciones/empresa/contacto.html" style="color: black">Contacto</a></li>
-				 </div>
+				<div id="content-desktop">
+                	<li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="secciones/empresa/contacto.html" style="color:gainsboro">Contacto</a></li>
+				</div>
+				<div id="content-mobile">
+				  	<li class="square_li square_glnavItem" data-nav="news"><a class="square_a square_glnavLink" href="secciones/empresa/contacto.html" style="color: black">Contacto</a></li>
+				</div>
               </ul>
             </div>
           </nav>
@@ -231,7 +231,8 @@
 <!-- wrapper End -->
 
     <!-- slider_area_start -->
-    <div class="slider_area">
+    <div id="content-desktop">
+	<div class="slider_area">
         <div class="single_slider  d-flex align-items-center empresa-banner3">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -243,6 +244,21 @@
             </div>
         </div>
     </div>
+	</div>
+	<div id="content-mobile">
+	<div class="slider_area">
+        <div class="single_slider  d-flex align-items-center empresa-banner3" style="height: 300px;">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="slider_text text-center justify-content-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
     <!-- slider_area_end -->
 	<br>
     <!-- COMPANY TEXT SECTION -->
@@ -292,7 +308,7 @@
 		<div class="container">
 			<h1 align="center" style="font-size: 38px;"><b>Estamos orgullosos de representar estas empresas</b></h1>
 			<br>
-            <div class="row" style="align-items: center">
+            <div class="row" style="align-items: center; justify-content: center" >
                 <img src="src/img/representaciones/09.png" alt="" height="190" width="190"><img src="src/img/representaciones/01.png" alt="" height="190" width="190"><img src="src/img/representaciones/02.png" alt="" height="190" width="190"><img src="src/img/representaciones/03.png" alt="" height="190" width="190"><img src="src/img/representaciones/04.png" alt="" height="190" width="190"><img src="src/img/representaciones/05.png" alt="" height="190" width="190"><img src="src/img/representaciones/06.png" alt="" height="190" width="190"><img src="src/img/representaciones/07.png" alt="" height="190" width="190"><img src="src/img/representaciones/08.png" alt="" height="190" width="190"><img src="src/img/representaciones/16.png" alt="" height="190" width="190">
 				<img src="src/img/representaciones/10.png" alt="" height="190" width="190"><img src="src/img/representaciones/11.png" alt="" height="190" width="190"><img src="src/img/representaciones/12.png" alt="" height="190" width="190"><img src="src/img/representaciones/13.png" alt="" height="190" width="190"><img src="src/img/representaciones/14.png" alt="" height="190" width="190"><img src="src/img/representaciones/15.png" alt="" height="190" width="190"><img src="src/img/representaciones/17.png" alt="" height="190" width="190"><img src="src/img/representaciones/18.png" alt="" height="190" width="190"><img src="src/img/representaciones/19.png" alt="" height="190" width="190">
             </div>
@@ -305,19 +321,19 @@
 	<div class="frp_row" style="padding-top: 40px; padding-left: 0px; padding-right: 0px;">
 		<div class="frp_home_panel_flex">
 			<div class="frp_home_panel__about_image">
-				<a href="..">
+				<a href="secciones/robots_y_cobots/cobots.html">
 				<h1 align="center" style="color: #093851; padding-top: 5px; font-size: 25px">Cobots</h1>
 				<img src="src/img/home-grid/cobot.png?auto=compress,format" width="100%">
 				</a>
 			</div>
 			<div class="frp_home_panel__about_image">
-				<a href="..">
+				<a href="secciones/secciones-maquinaria/llenadoras/jugos.html">
 				<h1 align="center" style="color: #093851; padding-top: 5px; font-size: 25px">Llenadoras</h1>
 				<img src="src/img/home-grid/filler.png?auto=compress,format" width="100%">
 				</a>
 			</div>
 			<div class="frp_home_panel__about_image">
-				<a href="..">
+				<a href="secciones/empresa/blog.html">
 				<h1 align="center" style="color: #093851; padding-top: 5px; font-size: 25px">Blog</h1>
 				<img src="src/img/home-grid/press.png?auto=compress,format" width="100%">
 				</a>
