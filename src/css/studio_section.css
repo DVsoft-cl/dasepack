@@ -328,7 +328,11 @@
 }
 
 
-
+@media (max-width: 375px) {
+	.frp_home_panel__about_image {
+		width: 100%;
+	}
+}
 
 
 
